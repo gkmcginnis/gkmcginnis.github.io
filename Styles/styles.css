@@ -149,3 +149,7 @@ input:focus{background-color: #fcfdb350;}
   text-align: right;
   font-size: 3em;
 }
+.resume{
+  text-align: left;
+  /* font-family: 'Marionette'; */
+}
