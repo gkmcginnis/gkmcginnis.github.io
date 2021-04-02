@@ -1,8 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&display=swap'); */
 
-body{max-width: 960px; margin: 0 auto;}
+body{
+  /* max-width: 960px;  */
+  margin: 0 auto;}
 *{font-family: 'Inter', Helvetica, sans-serif;
-    text-align: center;}
+    /* text-align: center; */
+  }
+
+/* Grid controls */
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+  }
+  
+  .div1 { grid-area: 1 / 2 / 2 / 6; }
+  .div2 { grid-area: 2 / 2 / 4 / 5; }
+  .div3 { grid-area: 4 / 2 / 6 / 5; }
+  .div4 { grid-area: 6 / 2 / 8 / 5; }
+  .div5 { grid-area: 8 / 2 / 10 / 5; }
+  .div6 { grid-area: 3 / 2 / 4 / 5; }
+  .div7 { grid-area: 5 / 2 / 6 / 5; }
+  .div8 { grid-area: 7 / 2 / 8 / 5; }
+  .div9 { grid-area: 9 / 2 / 10 / 5; }
+  .div10 { grid-area: 10 / 3 / 11 / 5; }
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.parent{
+  font-weight: 700;
+  font-size: x-large;
+}
 
 h1{font-weight: 900;}
 p.intro{
@@ -46,6 +79,7 @@ a:hover{
     padding: 5px 0px 5px 0px;
     border: 2px solid white;
     border-radius: 30px;
+    text-align: center;
   }
 table {
     width: 100%;
