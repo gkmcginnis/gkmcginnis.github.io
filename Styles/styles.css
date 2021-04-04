@@ -37,6 +37,11 @@ img {
   font-size: x-large;
 }
 
+.tilefloater{
+  font-family: 'Dolph';
+  font-style: italic;
+}
+
 h1{font-weight: 900;}
 p.intro{
     text-align: left;
