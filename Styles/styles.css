@@ -27,9 +27,14 @@ body{
   .div9 { grid-area: 9 / 2 / 10 / 5; }
   .div10 { grid-area: 10 / 3 / 11 / 5; }
 
+#homepage.imggallery{
+  gap: 0px;
+  grid-template-columns: 
+    repeat(auto-fit, minmax(150px, 1fr));
+}
 img {
-  width: 100%;
-  height: 100%;
+  width: 30%;
+  /* height: 100%; */
 }
 
 .parent{
@@ -42,6 +47,11 @@ img {
   font-style: italic;
 }
 
+.resume{
+  margin: 0 auto;
+  padding: 5px 10px 5px 10px;
+  max-width: 960px;
+}
 h1{font-weight: 900;}
 p.intro{
     text-align: left;
@@ -78,14 +88,7 @@ a:link {color: rgb(0, 95, 139);
   }
 a:hover{
   background-color: #fcfdb350;}
-#header{
-    background-color: #fcfdb350;
-    margin-top: 0px;
-    padding: 5px 0px 5px 0px;
-    border: 2px solid white;
-    border-radius: 30px;
-    text-align: center;
-  }
+
 table {
     width: 100%;
     border-collapse: separate;
@@ -101,8 +104,14 @@ td {
     font-size: large;
   }
 .header {
+    background-color: #fcfdb350;
+    margin-top: 0px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid white;
+    border-radius: 30px;
     text-align: center;
-    height: 25px;
     border: 0;
   }
 .total{
