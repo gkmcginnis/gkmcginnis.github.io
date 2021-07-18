@@ -23,8 +23,10 @@ body {
 }
 
 .tilefloater{
-  font-family: 'Dolph';
-  font-style: italic;
+  font-family: 'Inter';
+  font-size: large;
+  line-height: 2.5em;
+  padding: 5px 25px 5px 25px;
   background-color: #fcfdb350;
 }
 
