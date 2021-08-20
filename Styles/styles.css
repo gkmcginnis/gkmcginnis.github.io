@@ -75,9 +75,9 @@ a:link {color: rgb(0, 95, 139);
 a:visited{
   color: rgb(0, 95, 139);
 }
-a:hover{
+/* a:hover{
   background-color: #fcfdb350;
-}
+} */
 
 table {
     width: 100%;
@@ -101,7 +101,7 @@ td {
     padding: 5px 0px 5px 0px;
     border: 2px solid white;
     border-radius: 30px;
-    text-align: center;
+    text-align:center;
     border: 0;
   }
 .total{
