@@ -24,12 +24,12 @@ body {
 .parent:hover{
 cursor: pointer;
 }
-.parent:hover div{
+/* .parent:hover div{
   width: 150px;
   padding: 8px 15px;
   visibility: visible;
   opacity: 0.5;
-}
+} */
 
 .tilefloater{
   font-family: 'Inter';
