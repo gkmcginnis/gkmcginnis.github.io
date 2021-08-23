@@ -4,14 +4,14 @@
     grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr;
     grid-template-rows: repeat(5, 0.5fr);
     grid-column-gap: 0px;
-    row-gap: 10px;
+    row-gap: 5px;
   }
     
     .div1 { grid-area: 1 / 2 / 2 / 5; }
     .div2 { grid-area: 2 / 2 / 3 / 5; }
     .div3 { grid-area: 3 / 2 / 4 / 5; }
-    .div4 { grid-area: 4 / 2 / 5 / 5; }
-    .div5 { grid-area: 5 / 2 / 6 / 5; }
+    /* .div4 { grid-area: 4 / 2 / 5 / 5; }
+    .div5 { grid-area: 5 / 2 / 6 / 5; } */
   
 
 img {

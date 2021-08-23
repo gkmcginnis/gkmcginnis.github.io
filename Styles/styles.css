@@ -41,6 +41,7 @@ cursor: pointer;
   line-height: 2.5em;
   padding: 5px 25px 5px 25px;
   background-color: #fcfdb350;
+  border-radius: 20px;
 }
 
 .resume{
@@ -55,6 +56,11 @@ cursor: pointer;
 h1{
   font-weight: 900;
 }
+h2{
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
 p.intro{
     text-align: left;
     max-width: auto;
@@ -203,7 +209,38 @@ input:focus{background-color: #fcfdb350;}
   text-align: right;
   font-size: 3em;
 }
-.resume{
-  text-align: left;
-  /* font-family: 'Marionette'; */
+
+
+
+
+/* Column widths */
+.col66{
+  width: 66%;
+  padding: 0 2%;
+  display: inline-block;
+  vertical-align: top;
+}
+.col50{
+  width: 50%;
+  padding: 0 2%;
+  display: inline-block;
+  vertical-align: top;
+}
+.col33{
+  width: 33%;
+  padding: 0 2%;
+  display: inline-block;
+  vertical-align: top;
+}
+.col25{
+  width: 25%;
+  padding: 5% 2%;
+  display: inline-block;
+  vertical-align: top;
+}
+.col100{
+  width: 100%;
+  padding: 5% 0 5%;
+  z-index: 1;
+  vertical-align: top;
 }
