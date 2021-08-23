@@ -74,8 +74,7 @@ a:visited{
   vertical-align: top;
 }
 .col25{
-  font-feature-settings: "frac";
-  font-feature-settings: "calt";
+  font-feature-settings: "frac", "calt";
   width: 25%;
   padding: 5% 2%;
   display: inline-block;
