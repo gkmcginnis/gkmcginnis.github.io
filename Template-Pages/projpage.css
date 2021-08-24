@@ -52,7 +52,10 @@ a:visited{
     text-align:center;
     border: 0;
   }
-
+img{
+  max-width: 100%;
+  border: 1px solid black;
+}
 /* Column widths */
 .col66{
   font-feature-settings: "frac";
