@@ -90,3 +90,8 @@ img{
   padding: 1% 0 5%;
   vertical-align: top;
 }
+
+i{
+  font-family: 'EB Garamond';
+  font-style: italic;
+}
