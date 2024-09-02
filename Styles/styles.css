@@ -1,8 +1,13 @@
 @import 'type.css';
 
 body {
-  max-width: 960px;
+  max-width: 40em;
   margin: 0 auto;
+  padding: 5px;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #fff;
+  color: #000
 }
 
 *{font-family: 'Inter', Helvetica, sans-serif;
@@ -116,7 +121,8 @@ td {
     font-size: large;
   }
 .header {
-    background-color: #fcfdb350;
+    
+  /*background-color: #fcfdb350;
     margin-top: 0px;
     max-width: 960px;
     margin: 0 auto;
@@ -124,7 +130,7 @@ td {
     border: 2px solid white;
     border-radius: 30px;
     text-align:center;
-    border: 0;
+    border: 0; */
   }
 .total{
     font-weight: bold;
