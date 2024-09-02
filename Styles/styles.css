@@ -107,6 +107,12 @@ a:visited{
   background-color: #fcfdb350;
 } */
 
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
 table {
     width: 100%;
     border-collapse: separate;
