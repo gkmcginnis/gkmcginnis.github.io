@@ -128,9 +128,10 @@ td {
     text-align: center;
     font-size: large;
   }
-.header {
+
+/*  .header {
     
-  /*background-color: #fcfdb350;
+  background-color: #fcfdb350;
     margin-top: 0px;
     max-width: 960px;
     margin: 0 auto;
@@ -138,8 +139,8 @@ td {
     border: 2px solid white;
     border-radius: 30px;
     text-align:center;
-    border: 0; */
-  }
+    border: 0; 
+  } */
 .total{
     font-weight: bold;
     text-align: right;
