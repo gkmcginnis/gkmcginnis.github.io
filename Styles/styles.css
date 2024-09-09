@@ -157,7 +157,7 @@ tbody {
   border-bottom: .1rem solid #bfbfbf;
 
 }
-
+/*
 table {
     width: 100%;
     border-collapse: separate;
@@ -173,7 +173,7 @@ td {
     text-align: center;
     font-size: large;
   }
-
+*/
 
 .total{
     font-weight: bold;
