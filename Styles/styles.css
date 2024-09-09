@@ -121,19 +121,17 @@ table {
   text-align: left;
   border: .1rem solid #bfbfbf;
 
-
 }
-.table td {
-  padding: .3rem .6rem 0;
-  border-bottom: .1rem solid #bfbfbf;
 
-}
 td {
   display: table-cell;
   vertical-align: inherit;
   unicode-bidi: isolate;
+  padding: .3rem .6rem 0;
+  border-bottom: .1rem solid #bfbfbf;
 
 }
+
 tr {
   display: table-row;
   vertical-align: inherit;
@@ -142,12 +140,13 @@ tr {
 
 }
 
-.table th {
+th {
   font-weight: 600;
   padding: .3rem .6rem 0;
   border-bottom: .1rem solid #000;
   
 }
+
 tbody {
   display: table-row-group;
   vertical-align: middle;
@@ -155,7 +154,6 @@ tbody {
   border-color: inherit;
 
 }
-
 
 /*
 table {
