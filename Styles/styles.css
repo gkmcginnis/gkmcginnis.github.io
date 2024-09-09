@@ -114,7 +114,7 @@ ul {
   margin: 0; /* Remove margins */
 }
 
-table.notes {
+table {
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
@@ -130,7 +130,7 @@ td {
   unicode-bidi: isolate;
 
 }
-tr.notes {
+tr {
   display: table-row;
   vertical-align: inherit;
   unicode-bidi: isolate;
