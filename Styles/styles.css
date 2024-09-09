@@ -123,11 +123,38 @@ table.notes {
 
 
 }
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+
+}
 tr.notes {
   display: table-row;
   vertical-align: inherit;
   unicode-bidi: isolate;
   border-color: inherit;
+
+}
+
+.table th {
+  font-weight: 600;
+  padding: .3rem .6rem 0;
+  border-bottom: .1rem solid #000;
+  
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  unicode-bidi: isolate;
+  border-color: inherit;
+
+}
+
+.table td {
+  padding: .3rem .6rem 0;
+  border-bottom: .1rem solid #bfbfbf;
 
 }
 
@@ -140,24 +167,14 @@ table {
     margin-left: auto;
     margin-right: auto;
   }
+
 td {
     height: 30px;
     text-align: center;
     font-size: large;
   }
 
-/*  .header {
-    
-  background-color: #fcfdb350;
-    margin-top: 0px;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 5px 0px 5px 0px;
-    border: 2px solid white;
-    border-radius: 30px;
-    text-align:center;
-    border: 0; 
-  } */
+
 .total{
     font-weight: bold;
     text-align: right;
