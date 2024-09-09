@@ -123,7 +123,11 @@ table {
 
 
 }
+.table td {
+  padding: .3rem .6rem 0;
+  border-bottom: .1rem solid #bfbfbf;
 
+}
 td {
   display: table-cell;
   vertical-align: inherit;
@@ -152,11 +156,7 @@ tbody {
 
 }
 
-.table td {
-  padding: .3rem .6rem 0;
-  border-bottom: .1rem solid #bfbfbf;
 
-}
 /*
 table {
     width: 100%;
