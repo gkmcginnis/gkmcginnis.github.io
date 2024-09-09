@@ -144,7 +144,15 @@ th {
   font-weight: 600;
   padding: .3rem .6rem 0;
   border-bottom: .1rem solid #000;
-  
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+  unicode-bidi: isolate;
+}
+
+thead {
+  background-color: #eee;
 }
 
 tbody {
