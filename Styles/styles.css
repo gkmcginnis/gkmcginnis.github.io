@@ -108,6 +108,10 @@ a:visited{
   background-color: #fcfdb350;
 } */
 
+.header {
+  margin-top: 1em;
+}
+
 ul {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
