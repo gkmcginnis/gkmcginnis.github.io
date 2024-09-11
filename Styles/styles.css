@@ -297,6 +297,7 @@ input:focus{background-color: #fcfdb350;}
   display: inline-block;
   vertical-align: top;
   font-size: 15px;
+  line-height: 20px;
 }
 .col100{
   width: 100%;
