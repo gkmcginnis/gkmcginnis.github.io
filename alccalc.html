@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+    <head>
+        <title>Alcohol Calculator</title>
+    
+    <meta name="description" content="alcohol calculator" />
+    <meta name="keywords" content="calculator, alcohol, tip" />
+    <meta http-equiv="author" content="Kyle McGinnis" />
+    <meta lang="en-us" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Styles/styles.css" type="text/css" rel="stylesheet">
+    
+    </head>
+<!-- Hey there! You can see why I am not a professional web designer. -->
+<body>
+    <script type='text/javascript' src='https://code.jquery.com/jquery-1.8.3.min.js'></script>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript' src="alccalc.js"></script>
+    
+ <div>
+ <div id="header">
+    <h1>Rainwater Harvesting Calculator</h1>
+    <h3>Calculating the potential for water collection on your property</h3>
+ </div>
+<p class="intro">
+Alcohol Cost calculator
+</p>
+ </div>
+ 
+ <div class="results">
+    <table>
+        <tr class="tblecntxt">
+          <th></th>
+          <th style="vertical-align:bottom">the "bird's eye"<br /> view, slope<br />doesn't matter<br />&#8595;</th>
+          <th style="vertical-align:bottom">inches&#8202;/&#8202;12<br />&#8595;</th>
+          <th class="tblecntxt">Roof: 0.8&#8202;&#9472;&#8202;0.95<br/>
+              Bare earth: 0.3&#8202;&#9472;&#8202;0.55<br />
+              Grass: 0.1&#8202;&#9472;&#8202;0.25<br />&#8595;</th>
+          <th></th>
+          <th style="vertical-align:bottom">rounded to nearest whole gallon<br />&#8595;</th>
+        </tr>
+        <tr class="header">
+          <th class="surf">surface</th>
+          <th>area (ft<sup>2</sup>)</th>
+          <th>rainfall (ft.)</th>
+          <th>runoff coefficient</th>
+          <th style="width: fit-content">gal/ft<sup>3</sup></th>
+          <th>total (gal)</th>
+        </tr>
+<!-- Roof -->
+        <tr>
+          <td class="surf">Roof</td>
+          <td class="under"><input size="8" id = "Area1" value = "100"></input>&#215;</td>
+          <td class="under"><input size="8" id = "rainfall1" value = "0.25"></input>&#215;</td>
+          <td class="under"><input size="8" id = "coe1" value = "0.8" min="0" max="1"></input>&#215;</td>
+          <td style="width: fit-content;">7.48 &#61;</td>
+          <td class="total"><input class="total" readonly value="" id="subtotal1"></input></td>
+        </tr>
+<!-- Yard -->
+        <tr>
+          <td class="surf">Yard</td>
+          <td class="under"><input size="8" id = "Area2" value = "0"></input>&#215;</td>
+          <td class="under"><input size="8" id = "rainfall2" readonly></input>&#215;</td>
+          <td class="under"><input size="8" id = "coe2" value = "0.0"></input>&#215;</td>
+          <td>7.48 &#61;</td>
+          <td class="total"><input class="total"  readonly value="" id="subtotal2"></input></td>
+        </tr>
+<!-- Surface 2 -->
+        <tr>
+          <td class="surf"><input id="custsurf" class="surf" size="12" value="Surface 1"></input></td>
+          <td class="under"><input size="8" id = "Area3" value = "0"></input>&#215;</td>
+          <td class="under"><input size="8" id = "rainfall3" readonly></input>&#215;</td>
+          <td class="under"><input size="8" id = "coe3" value = "0.0"></input>&#215;</td>
+          <td>7.48 &#61;</td>
+          <td class="total"><input class="total"  readonly value="" id="subtotal3"></input></td>
+        </tr>
+<!-- Surface 2 -->
+        <tr>
+          <td class="surf"><input id="custsurf" class="surf" size="12" value="Surface 2"></input></td>
+          <td class="under"><input size="8" id = "Area4" value = "0"></input>&#215;</td>
+          <td class="under"><input size="8" id = "rainfall4" readonly></input>&#215;</td>
+          <td class="under"><input size="8" id = "coe4" value = "0.0"></input>&#215;</td>
+          <td>7.48 &#61;</td>
+          <td class="total"><input class="total"  readonly value="" id="subtotal4"></input></td>
+        </tr>
+<!-- Action buttons and GT -->
+        <tr>
+            <td class="pointer">&#9758;</td>
+            <td ><button id="clearbutton" class="button" type="button" onClick="resetAllValues();">Clear Cells</button></td>
+            <td class="pointer">&#9758;</td>
+            <td colspan="1"><button id="grandbutton" class="button" onclick="copyGrand()">Copy Grand total</button></td>
+            <td class="grandtext" colspan="1"><span> <br /><b>Grand total</b></span></td>
+
+            <td class="total"><input size="15" class="total" id="grandtotal" readonly></input></td>
+        </tr>
+<!-- Total CCF row -->
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="grandtext" colspan="2"><span>Total CCF (total&#8202;&#247;&#8202;748)<br /><em>Centum Cubic Feet</em></span></td>
+            <td class="total"><input size="15" class="total" id="totalccf" readonly></input></td>
+        </tr>
+        </tr>
+      </table>
+ </div>
+<div id="footer">
+<p class="footer">
+
+</p>
+<table style="width: 25%;">
+  <tr>
+    <td class="pointer">&#9758;</td>
+    <td><button class="button" type="button" onclick="location.href='mailto:gkylemcginnis@gmail.com';">Email Kyle</button></td>
+
+  </tr>
+</table>
+</div>
+  
+ </body>
+</html>
