@@ -308,12 +308,12 @@ input:focus{background-color: #fcfdb350;}
 
 .col1 {
   float:left; 
-  width:50%;
+  width:45%;
   margin-right: 20px;
 }
 
 .col2 {
   float:left; 
-  width:50%; 
+  width:45%; 
   margin-left: 20px;
 }
