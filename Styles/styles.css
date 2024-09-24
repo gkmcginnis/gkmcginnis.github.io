@@ -283,7 +283,7 @@ input:focus{background-color: #fcfdb350;}
   column-count: 2;
   width: 49%;
   padding: 0 2%;
-  display: inline-block;
+  display: inline;
   vertical-align: top;
 }
 .col33{
