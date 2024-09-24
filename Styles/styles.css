@@ -305,3 +305,14 @@ input:focus{background-color: #fcfdb350;}
   z-index: 1;
   vertical-align: top;
 }
+
+.col1 {
+  float:left; 
+  width:50%;
+}
+
+.col2 {
+  float:left; 
+  width:50%; 
+  margin-left:5px;
+}
