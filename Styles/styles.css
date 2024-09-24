@@ -269,7 +269,10 @@ input:focus{background-color: #fcfdb350;}
   font-size: 3em;
 }
 
-
+figcaption{
+  font-weight: 200;
+  font-size: smaller;
+}
 
 
 /* Column widths */
