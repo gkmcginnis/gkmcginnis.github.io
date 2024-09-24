@@ -309,10 +309,11 @@ input:focus{background-color: #fcfdb350;}
 .col1 {
   float:left; 
   width:45%;
+  margin-right: 20px;
 }
 
 .col2 {
   float:left; 
   width:45%; 
-  margin-left:10px;
+  margin-left: 20px;
 }
