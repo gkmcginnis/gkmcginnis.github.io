@@ -129,7 +129,7 @@ table {
 
 td {
   display: table-cell;
-  vertical-align: inherit;
+  vertical-align: top;
   unicode-bidi: isolate;
   padding: .3rem .6rem 0;
   border-bottom: .1rem solid #bfbfbf;
