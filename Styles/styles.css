@@ -142,7 +142,6 @@ td {
   unicode-bidi: isolate;
   padding: .3rem .6rem 0;
   border-bottom: .1rem solid #bfbfbf;
-
 }
 
 tr {
@@ -173,7 +172,14 @@ tbody {
   vertical-align: middle;
   unicode-bidi: isolate;
   border-color: inherit;
+}
 
+.pizza td{
+  font-family: 'JetBrains Mono';
+}
+
+.pizza tbody{
+  text-align: right;
 }
 
 .total{
