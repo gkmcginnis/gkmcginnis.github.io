@@ -196,6 +196,13 @@
   font-weight: 300;
   font-style: italic;
   }
+
+  @font-face {
+    font-family: 'JetBrains Mono';
+    src: url('Fonts/JetBrains/Mono') format('woff2');
+    font-weight: inherit;
+    font-style: normal;
+    }
   
   .dolph-light {
   font-family: 'Dolph';
